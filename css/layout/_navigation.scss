@@ -1,0 +1,45 @@
+// NAVIGATION
+.nav-wrapper{
+    background: #ff2143;
+    height: 80px;
+    line-height: 80px;
+    nav{
+        height: 100%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 75% 18% 7%;
+        &>*{
+            
+            border-right: 1px solid #cdcfd8c0;
+        }
+        a{
+            text-decoration: none;
+            color: #fff;
+        }
+    }
+    .main-nav{
+        a{
+            text-transform: uppercase;
+            font-size: 15px;
+            font-weight: 600;
+            border-right: 1px solid #ededed;
+            padding-right: 20px;
+            margin-right: 20px;
+            &:last-of-type{
+                border-right: none;
+            }
+        }
+    }
+    .social-nav{
+        padding: 0 20px;
+        display: flex;
+        justify-content: space-around;
+        a:hover{
+            // !!!!!!!!!!!!!!!!!!!!!!!!ANIMATION!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+        }
+    }
+    .search{
+        display: flex;
+        justify-content: center;
+    }
+}
